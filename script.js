@@ -18,6 +18,7 @@ btn.addEventListener('click', () => {
     mess.textContent = "Start guessing..."
     interro.textContent = "?"
     mark.textContent = 20
+    blank.value = " "
     
 })
 
