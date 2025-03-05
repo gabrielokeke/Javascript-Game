@@ -18,7 +18,11 @@ btn.addEventListener('click', () => {
     mess.textContent = "Start guessing..."
     interro.textContent = "?"
     mark.textContent = 20
-    
+    blank.value = ""
+
+    randomNumber = Math.random()
+    reponse = Math.floor(randomNumber * 20) + 1
+    return reponse;
 })
 
 bottle.addEventListener('click', () => {
